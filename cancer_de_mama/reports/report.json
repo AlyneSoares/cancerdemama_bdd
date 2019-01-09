@@ -1,0 +1,95 @@
+[
+  {
+    "description": "    I want to search and confirm thepage title",
+    "keyword": "Feature",
+    "name": "Search for Metallica",
+    "line": 1,
+    "id": "search-for-metallica",
+    "tags": [],
+    "uri": "features/searchMetallica.feature",
+    "elements": [
+      {
+        "id": "search-for-metallica;search-for-metallica",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Search for Metallica",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:47"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6987000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open the page",
+            "match": {
+              "location": "features/step_definitions/login.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12650000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click the \"banner\"",
+            "match": {
+              "location": "features/step_definitions/generalSteps.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see \"http://cancerdemama.com.br/campanha/\" in the url",
+            "match": {
+              "location": "features/step_definitions/generalSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features/support/hooks.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

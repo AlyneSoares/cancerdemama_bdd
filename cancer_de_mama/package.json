@@ -1,0 +1,33 @@
+{
+  "name": "Wiki",
+  "version": "0.1.0",
+  "description": "Model Tests",
+  "author": "Alyne MR Soares <lynemr@gmail.com>",
+  "contributors": [
+    "Lucas Pellisoli"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlyneSoares/wiki_bdd"
+  },
+  "scripts": {
+    "debug": "node --inspect=1337 --debug-brk --nolazy node_modules/cucumber/bin/cucumber-js --tags @debug --format json:./reports/report.json",
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "base64-img": "^1.0.4",
+    "cucumber": "5.1.0",
+    "cucumber-html-reporter": "4.0.4",
+    "eslint": "^4.19.1",
+    "fs": "0.0.1-security",
+    "minimist": "1.2.0",
+    "npm": "^6.0.0",
+    "path": "0.12.7",
+    "testcafe": "^0.22.0",
+    "util": "0.11.1"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  }
+}
